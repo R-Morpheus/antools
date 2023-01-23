@@ -1,5 +1,7 @@
 .login__container{
-    margin-left: 90px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
 }
 
 .login__btn{

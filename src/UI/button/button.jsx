@@ -1,7 +1,8 @@
 import React from 'react';
 import './button.css'
 
-const MyButton = ({children, load, onClick}) => {
+const MyButton = ({children, load, onClick, onClickHandler}) => {
+  console.log(onClickHandler)
   return (
       <div>
         {load
@@ -10,7 +11,7 @@ const MyButton = ({children, load, onClick}) => {
               {children}
             </button>
             :
-            <button className='myButton'>
+            <button className='myButton' onClick={onClickHandler}>
               {children}
             </button>
         }

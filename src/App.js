@@ -6,8 +6,10 @@ import Brands from "./components/companies /Brands";
 import NewComerTools from "./components/newComerTools/NewComerTools";
 import Slider from "./components/slider/Slider";
 import Contributor from "./components/contributor/Contributor";
-import './App.css';
 import Footer from "./components/footer/Footer";
+import './App.css';
+
+
 function App() {
   return (
     <div className="App">
