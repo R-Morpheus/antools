@@ -10,11 +10,11 @@ import twitter from '../../img/twitter.svg'
 const Wrapper = () => {
   return (
       <div className='wrapper__container'>
-        <div>
+        <div className='wrapper__block'>
           <h1 className='wrapper__header'>Awesome tools for Designer & Developer<span className="orange">.</span></h1>
           <p className='wrapper__description'>Antool is a web collection of information on paid or free Design and
             Development tools</p>
-          <Input/>
+          <Input placeholder={'find more than 430+ tools...'} search={true} children={'Search'}/>
           <div className='social__icons'>
             <img className='social__icon' src={facebook} alt=""/>
             <img className='social__icon' src={instagram} alt=""/>

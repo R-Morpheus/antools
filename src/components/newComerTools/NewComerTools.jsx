@@ -15,15 +15,15 @@ const NewComerTools = () => {
           <MyButton children={'Explore more'}/>
         </div>
         <div className='newcomer__tools'>
-          {tool.map(function (tool, index){
-            if (tool.new)
-              return <Tool style={{width: '300px', height: '300px'}}
-                            icon={tool.icon}
-                            name={tool.name}
-                            description={tool.description}
-                            price={tool.price}
-                            key={index}/>
-            })}
+          {tool.filter((tool) => tool.new).map((tool, index) => {
+            return (<Tool style={{width: '300px', height: '300px'}}
+                          icon={tool.icon}
+                          name={tool.name}
+                          description={tool.description}
+                          price={tool.price}
+                          key={index}
+            />
+          )})}
         </div>
       </div>
   );

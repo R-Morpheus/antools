@@ -1,11 +1,13 @@
 import React from "react";
-import './App.css';
 import Navbar from "./components/navbar/Navbar";
 import Wrapper from "./components/wrapper/Wrapper";
 import Tools from "./components/tools/Tools";
 import Brands from "./components/companies /Brands";
 import NewComerTools from "./components/newComerTools/NewComerTools";
-
+import Slider from "./components/slider/Slider";
+import Contributor from "./components/contributor/Contributor";
+import './App.css';
+import Footer from "./components/footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,9 @@ function App() {
       <Tools/>
       <Brands/>
       <NewComerTools/>
+      <Slider/>
+      <Contributor/>
+      <Footer/>
     </div>
   );
 }

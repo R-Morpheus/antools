@@ -4,6 +4,10 @@
 
 }
 
+.wrapper__block{
+    margin-left: 100px;
+}
+
 .wrapper__illustration{
     margin-top: 50px;
     margin-left: 150px;
@@ -15,7 +19,7 @@
     color: rgba(255, 255, 255, 0.78);
     font-size: 50px;
     font-weight: 500;
-    margin: 100px 20px 30px 100px;
+    margin: 100px 20px 30px 0px;
     flex-wrap: wrap;
     width: 600px;
 }
@@ -25,7 +29,7 @@
     color: #83868a;
     font-size: 18px;
     font-weight: 400;
-    margin: 30px 20px 60px 100px;
+    margin: 30px 20px 60px 0px;
     flex-wrap: wrap;
     width: 487px;
 }
@@ -36,7 +40,7 @@
 }
 
 .social__icons{
-    margin: 110px 20px 60px 100px;
+    margin: 110px 20px 60px 0px;
     width: 200px;
     height: 60px;
     display: flex;

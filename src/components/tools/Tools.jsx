@@ -3,6 +3,7 @@ import './tools.css'
 import Tool from "./tool/Tool";
 import {tools} from '../../store/data'
 import MyButton from "../../UI/button/button";
+
 const Tools = () => {
   const [numberOfTool,setNumberOfTool] = useState(6)
   const loadMore = () => {
@@ -18,8 +19,7 @@ const Tools = () => {
         </div>
           <div className='tool__list'>
             {slice.map((tool, index) => {
-              return (
-                  <Tool icon={tool.icon}
+              return ( <Tool icon={tool.icon}
                         name={tool.name}
                         description={tool.description}
                         price={tool.price}
