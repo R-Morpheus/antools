@@ -1,0 +1,41 @@
+.tools__container{
+    margin-top: 200px;
+    cursor: pointer;
+}
+
+.tools__header__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tools__header{
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.78);
+    font-weight: 500;
+}
+
+.tools__description{
+    text-decoration: none;
+    color: #83868a;
+    font-size: 18px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    width: 400px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.tool__list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.load__more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

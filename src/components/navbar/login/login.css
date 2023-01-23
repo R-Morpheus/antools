@@ -1,0 +1,16 @@
+.login__container{
+    margin-left: 90px;
+}
+
+.login__btn{
+    text-decoration: none;
+    color: #83868a;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 30px;
+    transition: all 0.3s ease;
+}
+
+.login__btn:hover{
+    color: #ffffff;
+}

@@ -1,0 +1,83 @@
+.tool__container{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 60px 12px ;
+    transition: 0.5s ease;
+    padding: 5px;
+}
+
+.tool__container:hover{
+    -webkit-box-shadow: -8px 6px 30px -6px rgba(235, 108, 0, 0.28) inset;
+    -moz-box-shadow: -8px 6px 30px -6px rgba(235, 108, 0, 0.28) inset;
+    box-shadow: -8px 6px 30px -6px rgba(235, 108, 0, 0.28) inset;
+
+}
+.tool__container:hover .tool__price{
+    color: #FFA537;
+}
+.tool__container:hover .tool__h3{
+    color: #FDF5FF;
+}
+
+.tool__header{
+    display: flex;
+    height: 66px;
+    margin: 33px 0px 30px 33px;
+}
+
+.tool__icon{
+    width: 64px;
+    height: 64px;
+}
+.tool__h3{
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.78);
+    font-weight: 500;
+    margin-left: 30px;
+    transition: 0.5s ease;
+    width: 230px;
+
+}
+.tool__price{
+    color: rgba(255, 165, 55, 0.55);
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.5s ease;
+
+}
+.tool__description{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    margin: 33px 0px 30px 33px;
+
+}
+.tool__option{
+    display: flex;
+    justify-content: space-around;
+}
+.tool__option__icons{
+    display: flex;
+    height: 42px;
+    width: 96px;
+    transition: 0.5s ease;
+
+}
+
+.tool__option__icon {
+    width: 42px;
+    height: 42px;
+    padding: 7px;
+    border-radius: 8px;
+    margin-right: 12px;
+    transition: 0.5s ease;
+}
+
+.tool__option__icon:hover {
+    -webkit-box-shadow: 0px 0px 22px 12px rgba(147, 149, 150, 0.2);
+    -moz-box-shadow: 0px 0px 22px 12px rgba(147, 149, 150, 0.2);
+    box-shadow: 0px 0px 22px 12px rgba(147, 149, 150, 0.2);
+}

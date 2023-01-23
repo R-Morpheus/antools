@@ -1,0 +1,134 @@
+
+.myButton {
+    width: 118px;
+    height: 48px;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    background: #ff6e30;
+    border: 1px solid #ff6e30 ;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+}
+
+.myButton:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #1e252b;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-family: Poppins, sans-serif;
+
+}
+.myButton:hover {
+    color: #FDF5FF;
+}
+.myButton:hover:after {
+    left: 0;
+    width: 100%;
+}
+.myButton:active {
+    top: 2px;
+}
+
+.myButton__load{
+    width: 185px;
+    height: 65px;
+    color: #ff6e30;
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    background: #1e252b;
+    border: 1px solid #83868a ;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+}
+
+
+.myButton__load:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #ff6e30;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-family: Poppins, sans-serif;
+
+}
+.myButton__load:hover {
+    color: #FDF5FF;
+}
+.myButton__load:hover:after {
+    left: 0;
+    width: 100%;
+}
+.myButton__load:active {
+    top: 2px;
+}
+
+
+.myButton__disabled{
+    width: 118px;
+    height: 48px;
+    color: #83868a;
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background: #1e252b;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+}
+
+
+.myButton__disabled:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #ff6e30;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-family: Poppins, sans-serif;
+
+}
+.myButton__disabled:hover {
+    color: #FDF5FF;
+}
+.myButton__disabled:hover:after {
+    left: 0;
+    width: 100%;
+}
+.myButton__disabled:active {
+    top: 2px;
+}
